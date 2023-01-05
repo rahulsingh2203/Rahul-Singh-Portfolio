@@ -29,10 +29,21 @@ ul {
     justify-content: space-evenly;
     align-items: center;
 }
-li{
+
+li {
+    cursor: pointer;
     color: #F9AC66;
     font-size: 2em;
+    transition: 0.5s ease;
 }
-.active{
+li:hover{
     color: #E5FAFC;
+}
+
+.active {
+    color: #E5FAFC;
+    transition: 0.5s ease;
+}
+.active:hover{
+    color: #F9AC66;
 }

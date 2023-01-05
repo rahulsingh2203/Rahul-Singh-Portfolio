@@ -1,0 +1,52 @@
+.section-1 {
+    width: 100%;
+    position: relative;
+    color: #E5FAFC;
+    height: 40rem;
+}
+
+.section-1 h1 {
+    position: relative;
+    margin-bottom: 1rem;
+    font-size: 16rem;
+    color: transparent;
+    text-shadow: 0 0 50px #E5FAFC;
+    opacity: 0.5;
+
+}
+
+.section-1-container-subcontainer-1 {
+    width: 40%;
+}
+
+.section-1-container-subcontainer-1 img {
+    position: absolute;
+    z-index: 2;
+    width: 35rem;
+    left: 0px;
+    top: 0rem;
+}
+
+.section-1-container-subcontainer-2 {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    z-index: 2;
+    left: 35%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1-container-subcontainer-2 span {
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    color: #F9AC66;
+}
+
+#span-rahul{
+    font-size: 8rem;
+    color: #E5FAFC;
+}

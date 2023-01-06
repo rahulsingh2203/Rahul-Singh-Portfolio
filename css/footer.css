@@ -46,36 +46,45 @@ footer {
     width: 90%;
 }
 
-#linkedin, .li-footer a{
+#linkedin,
+.li-footer a {
     text-decoration: none;
     color: #E5FAFC;
     transition: 0.6s ease;
 }
-#linkedin:hover{
+
+#linkedin:hover {
     color: #0A66C2;
 }
-#github:hover{
+
+#github:hover {
     color: #6CC644;
 }
-#instagram:hover{
+
+#instagram:hover {
     color: #d62976;
 }
-#email:hover{
+
+#email:hover {
     color: #FBBC05;
 }
-#call:hover{
+
+#call:hover {
     color: #A020F0;
 }
-#resume:hover{
+
+#resume:hover {
     color: #F1554C;
 }
+
 .logo {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 20rem;
 }
 
@@ -93,6 +102,35 @@ footer {
     font-size: 1.5rem;
     transition: 0.6s ease;
 }
-.copyright span:hover{
+
+.copyright span:hover {
     color: #E5FAFC;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-details {
+        height: 12rem;
+        flex-direction: column;
+    }
+
+    .details {
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+        display: none;
+    }
+    .logo img{
+        width: 10rem;
+    }
+
+    .copyright span {
+        font-size: 1rem;
+    }
 }

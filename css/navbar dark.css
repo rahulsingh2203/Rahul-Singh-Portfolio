@@ -47,3 +47,12 @@ li:hover{
 .active:hover{
     color: #F9AC66;
 }
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+      justify-content: center;
+    }
+    .nav{
+        width: 100%;
+    }
+  }

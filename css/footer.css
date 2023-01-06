@@ -66,6 +66,9 @@ footer {
 #call:hover{
     color: #A020F0;
 }
+#resume:hover{
+    color: #F1554C;
+}
 .logo {
     width: 40%;
     display: flex;

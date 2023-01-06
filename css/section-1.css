@@ -36,11 +36,29 @@
     margin-bottom: 2rem;
     font-size: 6vw;
     color: #F9AC66;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 #span-rahul {
     font-size: 8vw;
     color: #E5FAFC;
+    animation-name: rahul;
+    animation-duration: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name {
+    0% {color: #F9AC66;}
+  50% {color: #E5FAFC;}
+  100% {color: #F9AC66;}
+}
+@keyframes rahul{
+    0% {color: #E5FAFC;}
+    50% {color: #F9AC66;}
+    100% {color: #E5FAFC;}
 }
 
 @media only screen and (max-width: 800px) {

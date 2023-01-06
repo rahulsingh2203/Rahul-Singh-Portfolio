@@ -16,3 +16,12 @@
     background-color: #E5FAFC;
     border-radius: 2rem;
 }
+
+@media only screen and (max-width: 800px) {
+    .section-3{
+        height: 35rem;
+    }
+    .section-3-container-subcontainer-1{
+        width: 90%;
+    }
+}

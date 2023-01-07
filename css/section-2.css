@@ -186,6 +186,7 @@
     margin: 1rem 1rem;
     font-size: 2vw;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .skill-items {
@@ -208,10 +209,20 @@
     border-bottom-left-radius: 2rem;
     background: transparent;
     transition: 0.5s ease;
+    color: white;
+    font-size: 3vw;
 }
-#skill-btn-prev:hover{
+
+
+#skill-btn-prev:hover {
     background-color: black;
     opacity: 0.1;
+}
+#skill-btn-prev>span {
+    top: 4%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #skill-btn-next {
@@ -224,8 +235,18 @@
     border-bottom-right-radius: 2rem;
     background: transparent;
     transition: 0.5s ease;
+    color: white;
+    font-size: 3vw;
 }
-#skill-btn-next:hover{
+
+#skill-btn-next>span {
+    top: 4%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#skill-btn-next:hover {
     background-color: black;
     opacity: 0.1;
 }
@@ -233,6 +254,16 @@
 .bg-1 {
     border-radius: 2rem;
     background-image: linear-gradient(to bottom, #ff4b1f, #ff9068);
+}
+
+.bg-2 {
+    border-radius: 2rem;
+    background-image: linear-gradient(to bottom, #cd2c3f, #fc035a);
+}
+
+.bg-3 {
+    border-radius: 2rem;
+    background-image: linear-gradient(to bottom, #060f4c, #004b8f);
 }
 
 @media only screen and (max-width: 800px) {
@@ -283,5 +314,11 @@
 
     .lower-p-about-us {
         font-size: 5vw;
+    }
+    #skill-sets{
+        font-size: 5vw;
+    }
+    .skill-items{
+        font-size: 3.5vw;
     }
 }

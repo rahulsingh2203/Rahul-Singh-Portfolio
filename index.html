@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/5f84977079.js" crossorigin="anonymous"></script>
     <script src="Scripts/section-2-about-us.js"></script>
+    <script src="Scripts/section-2-skills.js"></script>
     <title>Rahul Singh Mera Naam</title>
 </head>
 
@@ -56,22 +57,14 @@
                         <img src="photos/3.jpg" alt="">
                         <div class="data-about-us">
                             <p class="upper-p-about-us">Just like my older brother</p>
-                            <p class="lower-p-about-us">I studied at <b>St. MontFort Sr. Secondary School, Bhopal.</b>This is
-                                where it all
-                                started...</p>
+                            <p class="lower-p-about-us">I studied at <b>St. MontFort Sr. Secondary School, Bhopal.</b>This is where it all started...</p>
                         </div>
                     </div>
                     <div class="section-2-container-subcontainer-1-slide">
                         <img src="photos/2.jpeg" alt="">
                         <div class="data-about-us">
-                            <p class="upper-p-about-us">I am a Electronics and Communication Engineer from <b>Meerut Institute of
-                                    Engineering
-                                    and Technology,
-                                    Meerut.</b></p>
-                            <p class="lower-p-about-us">and it was in college, organizing events where I discovered <b>Web
-                                    Development.</b>
-                                This discovery
-                                led to some <b></b>amazing opportunities.</b></p>
+                            <p class="upper-p-about-us">I am a Electronics and Communication Engineer graduate from <b>Meerut Institute of Engineering and Technology, Meerut.</b></p>
+                            <p class="lower-p-about-us">and it was in college, organizing events where I discovered my interest in <b>Web Development.</b>This discovery led to some <b></b>amazing opportunities.</b></p>
                         </div>
                     </div>
                     <button class="section-2-container-subcontainer-1-next-btn" onclick="nextSlide()"></button>
@@ -91,7 +84,30 @@
                         </div>
                     </div>
                     <div class="section-2-container-subcontainer-2-lower"> <!--my skills-->
-
+                        <button id="skill-btn-prev" onclick="skillPrev()"></button>
+                        <div class="section-2-container-subcontainer-2-lower-skill-data active-skill">
+                            <div class="skill-data bg-1">
+                                <p id="skill-sets">Some tech skills which I know and regulary polishing...</p>
+                            </div>
+                        </div>
+                        <div class="section-2-container-subcontainer-2-lower-skill-data">
+                            <div class="skill-data">
+                                <p id="skill-sets">Web Designing:</p>
+                                <p class="skill-items">HTML5</p>
+                                <p class="skill-items">CSS3</p>
+                                <p class="skill-items">BootStraps</p>
+                                <p class="skill-items">JavaScript</p>
+                                <p class="skill-items">Figma</p>
+                            </div>
+                        </div>
+                        <div class="section-2-container-subcontainer-2-lower-skill-data">
+                            <div class="skill-data">
+                                <p id="skill-sets">Backend and DataBase:</p>
+                                <p class="skill-items">PHP</p>
+                                <p class="skill-items">SQL</p>
+                            </div>
+                        </div>
+                        <button id="skill-btn-next" onclick="skillNext()"></button>
                     </div>
                 </div>
             </div>

@@ -1,8 +1,8 @@
 let slides = document.getElementsByClassName("section-2-container-subcontainer-1-slide");
-let slidesNum = slides.length;
+let num = 3;
 let i = 0;
 function nextSlide() {
-    if (i < slidesNum - 1) {
+    if (i < num - 1) {
         slides[i].classList.remove("active-slide-about-us");
         slides[i + 1].classList.add("active-slide-about-us");
         i++;
@@ -23,6 +23,6 @@ function prevSlide() {
     else {
         slides[i].classList.remove("active-slide-about-us");
         slides[i + 2].classList.add("active-slide-about-us");
-        i = slidesNum - 1;
+        i = num - 1;
     }
 }

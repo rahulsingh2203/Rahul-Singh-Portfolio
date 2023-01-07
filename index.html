@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/section-3.css">
     <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/5f84977079.js" crossorigin="anonymous"></script>
+    <script src="Scripts/section-3-about-us.js"></script>
     <title>Rahul Singh Mera Naam</title>
 </head>
 
@@ -43,26 +44,57 @@
         <section class="section-2"> <!--contains about section, theme toggle mode and skills-->
             <div class="section-2-container">
                 <div class="section-2-container-subcontainer-1"> <!--about me carousel-->
-                </div>
-                    <div class="section-2-container-subcontainer-2">
-                        <div class="section-2-container-subcontainer-2-upper"> <!--theme toggle-->
-                            <div class="toggle-text">
-                                <p><b class="toggle-text-b">Ah! It’s good to see you here.</b><br>
-                                    This page is a quick summary of what I’ve been upto. It’s pretty simple so if you
-                                    wish
-                                    to go into detail, check out my
-                                    Github and LinkedIn profile.</p>
-                            </div>
-                            <div class="toggle-button">
-                                <p><b>Switch light</b></p>
-                                <button>ON</button>
-                            </div>
-                        </div>
-                        <div class="section-2-container-subcontainer-2-lower"> <!--my skills-->
-
+                    <button class="section-2-container-subcontainer-1-prev-btn" onclick="prevSlide()"></button>
+                    <div class="section-2-container-subcontainer-1-slide active-slide-about-us">
+                        <img src="photos/1.png" alt="">
+                        <div class="data-about-us">
+                            <p class="upper-p-about-us">What is My Story?</p>
+                            <p class="lower-p-about-us">Everyone has one,<br> here is <b>mine</b> :)</p>
                         </div>
                     </div>
+                    <div class="section-2-container-subcontainer-1-slide">
+                        <img src="photos/3.jpg" alt="">
+                        <div class="data-about-us">
+                            <p class="upper-p-about-us">Just like my older brother</p>
+                            <p class="lower-p-about-us">I studied at <b>St. MontFort Sr. Secondary School, Bhopal.</b>This is
+                                where it all
+                                started...</p>
+                        </div>
+                    </div>
+                    <div class="section-2-container-subcontainer-1-slide">
+                        <img src="photos/2.jpeg" alt="">
+                        <div class="data-about-us">
+                            <p class="upper-p-about-us">I am a Electronics and Communication Engineer from <b>Meerut Institute of
+                                    Engineering
+                                    and Technology,
+                                    Meerut.</b></p>
+                            <p class="lower-p-about-us">and it was in college, organizing events where I discovered <b>Web
+                                    Development.</b>
+                                This discovery
+                                led to some <b></b>amazing opportunities.</b></p>
+                        </div>
+                    </div>
+                    <button class="section-2-container-subcontainer-1-next-btn" onclick="nextSlide()"></button>
                 </div>
+                <div class="section-2-container-subcontainer-2">
+                    <div class="section-2-container-subcontainer-2-upper"> <!--theme toggle-->
+                        <div class="toggle-text">
+                            <p><b class="toggle-text-b">Ah! It’s good to see you here.</b><br>
+                                This page is a quick summary of what I’ve been upto. It’s pretty simple so if you
+                                wish
+                                to go into detail, check out my
+                                Github and LinkedIn profile.</p>
+                        </div>
+                        <div class="toggle-button">
+                            <p><b>Switch light</b></p>
+                            <button>ON</button>
+                        </div>
+                    </div>
+                    <div class="section-2-container-subcontainer-2-lower"> <!--my skills-->
+
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section-3"> <!-- contains project section-->
             <div class="section-3-container">

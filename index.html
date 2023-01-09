@@ -16,6 +16,7 @@
     <script src="Scripts/navbar-scroll.js"></script>
     <script src="Scripts/section-2-about-us.js"></script>
     <script src="Scripts/section-2-skills.js"></script>
+    <script src="Scripts/section-3-projects.js"></script>
     <title>Rahul Singh Mera Naam</title>
 </head>
 
@@ -121,12 +122,20 @@
         <section class="section-3"> <!-- contains project section-->
             <div class="section-3-container">
                 <div class="section-3-container-subcontainer-1">
-                    <div class="projects-list">
+                    <div class="projects-list active-project">
                         <img src="photos/wonders.jpg" alt="">
                         <h1>My Wonders</h1>
                     </div>
-                    <button id="project-btn-prev"><span><</span></button>
-                    <button id="project-btn-next"><span>></span></button>
+                    <div class="projects-list">
+                        <img id="calci" src="photos/calculator.jpeg" alt="">
+                        <h1 >Calculator</h1>
+                    </div>
+                    <div class="projects-list">
+                        <img id="calci" src="photos/leap.jpeg" alt="">
+                        <h1>Leap Year</h1>
+                    </div>
+                    <button id="project-btn-prev" onclick="projectPrev()"><span><</span></button>
+                    <button id="project-btn-next" onclick="projectNext()"><span>></span></button>
                 </div>
             </div>
         </section>

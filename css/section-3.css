@@ -93,7 +93,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 100%;
+    width: 80%;
     font-size: 3vw;
     padding: 0px 2rem;
 }

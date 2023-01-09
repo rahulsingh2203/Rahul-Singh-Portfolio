@@ -2,7 +2,7 @@ let projectSlide = document.getElementsByClassName("projects-list");
 let nproj = 3;
 let iii = 0;
 function projectNext() {
-    if (iii < 2) {
+    if (iii < 3) {
         projectSlide[iii].classList.remove("active-project");
         projectSlide[iii + 1].classList.add("active-project");
         iii++;
@@ -22,7 +22,7 @@ function projectPrev() {
     }
     else {
         projectSlide[iii].classList.remove("active-project");
-        projectSlide[iii + 2].classList.add("active-project");
-        iii = 2;
+        projectSlide[iii + 3].classList.add("active-project");
+        iii = 3;
     }
 }

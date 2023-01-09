@@ -1,15 +1,18 @@
-.section-3{
+.section-3 {
     width: 100%;
     height: 40rem;
+    display: flex;
 }
-.section-3-container{
+
+.section-3-container {
     margin: 5rem 0rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section-3-container-subcontainer-1{
+
+.section-3-container-subcontainer-1 {
     position: relative;
     width: 60%;
     height: 30rem;
@@ -17,11 +20,90 @@
     border-radius: 2rem;
 }
 
+#project-btn-prev {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    left: 0;
+    border: none;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background: transparent;
+    transition: 0.5s ease;
+    color: black;
+    font-size: 3vw;
+}
+
+
+#project-btn-prev:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.1;
+}
+#project-btn-prev>span {
+    top: 4%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#project-btn-next {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    right: 0;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background: transparent;
+    transition: 0.5s ease;
+    color: black;
+    font-size: 3vw;
+}
+
+#project-btn-next>span {
+    top: 4%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#project-btn-next:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.1;
+}
+
+.projects-list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.projects-list>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    opacity: 0.5;
+}
+
+.projects-list>h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 3vw;
+    padding: 0px 2rem;
+}
+
 @media only screen and (max-width: 800px) {
-    .section-3{
+    .section-3 {
         height: 35rem;
     }
-    .section-3-container-subcontainer-1{
+
+    .section-3-container-subcontainer-1 {
         width: 90%;
     }
 }

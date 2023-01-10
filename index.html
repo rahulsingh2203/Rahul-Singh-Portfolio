@@ -15,12 +15,13 @@
     <script src="https://kit.fontawesome.com/5f84977079.js" crossorigin="anonymous"></script>
     <script src="Scripts/navbar-scroll.js"></script>
     <script src="Scripts/section-2-about-us.js"></script>
+    <script src="Scripts/toggle-mode.js"></script>
     <script src="Scripts/section-2-skills.js"></script>
     <script src="Scripts/section-3-projects.js"></script>
     <title>Rahul Singh Mera Naam</title>
 </head>
 
-<body>
+<body id="body">
     <header>
         <div class="navbar"> <!--Navigation starts-->
             <div class="nav">
@@ -36,7 +37,7 @@
         <section class="section-1"> <!--containes my name and photo-->
             <div class="section-1-container">
                 <div class="section-1-container-subcontainer-1">
-                    <img src="photos/section photo.png" alt="">
+                    <img src="photos/section photo.jpeg" alt="">
                 </div>
                 <div class="section-1-container-subcontainer-2">
                     <span>My Name is</span>
@@ -49,14 +50,14 @@
                 <div class="section-2-container-subcontainer-1"> <!--about me carousel-->
                     <button class="section-2-container-subcontainer-1-prev-btn" onclick="prevSlide()"></button>
                     <div class="section-2-container-subcontainer-1-slide active-slide-about-us">
-                        <img src="photos/1.png" alt="">
+                        <img src="photos/1.jpeg" alt="">
                         <div class="data-about-us">
                             <p class="upper-p-about-us">What is My Story?</p>
                             <p class="lower-p-about-us">Everyone has one,<br> here is <b>mine</b> :)</p>
                         </div>
                     </div>
                     <div class="section-2-container-subcontainer-1-slide">
-                        <img src="photos/3.jpg" alt="">
+                        <img src="photos/3.jpeg" alt="">
                         <div class="data-about-us">
                             <p class="upper-p-about-us">Just like my older brother</p>
                             <p class="lower-p-about-us">I studied at <b>St. MontFort Sr. Secondary School,
@@ -87,7 +88,7 @@
                         </div>
                         <div class="toggle-button">
                             <p><b>Switch light</b></p>
-                            <button>ON</button>
+                            <button onclick="toggleMode()">ON</button>
                         </div>
                     </div>
                     <div class="section-2-container-subcontainer-2-lower"> <!--my skills-->
@@ -123,7 +124,7 @@
             <div class="section-3-container">
                 <div class="section-3-container-subcontainer-1">
                     <div class="projects-list active-project">
-                        <img src="photos/wonders.jpg" alt="">
+                        <img src="photos/wonders.jpeg" alt="">
                         <h1>My Wonders</h1>
                     </div>
                     <div class="projects-list">

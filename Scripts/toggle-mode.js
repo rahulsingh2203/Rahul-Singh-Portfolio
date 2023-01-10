@@ -1,5 +1,5 @@
-let bodyBackground;
+//let bodyBackground = document.getElementById("body").style.background;
 
-function toggleMode(){
-    alert("hi!");
+function toggleMode() {
+    alert("Work in Progress!");
 }

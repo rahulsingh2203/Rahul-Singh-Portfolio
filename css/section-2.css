@@ -73,6 +73,10 @@
     border-bottom-right-radius: 2rem;
     background-color: transparent;
     transition: 0.5s ease;
+}
+.section-2-container-subcontainer-1-next-btn > span{
+    font-size: 2vw;
+    color: black;
     animation: nxt 2s infinite;
 }
 @keyframes nxt {
@@ -292,6 +296,13 @@
     .section-2-container-subcontainer-1 {
         width: 90%;
         height: 30rem;
+    }
+    .section-2-container-subcontainer-1-next-btn > span{
+        font-size: 5vw;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .section-2-container-subcontainer-2 {

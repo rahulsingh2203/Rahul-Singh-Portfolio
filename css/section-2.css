@@ -60,7 +60,6 @@
 .section-2-container-subcontainer-1-next-btn:hover {
     background-color: black;
     opacity: 0.1;
-
 }
 
 .section-2-container-subcontainer-1-next-btn {
@@ -74,6 +73,20 @@
     border-bottom-right-radius: 2rem;
     background-color: transparent;
     transition: 0.5s ease;
+    animation: nxt 2s infinite;
+}
+@keyframes nxt {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .active-slide-about-us {

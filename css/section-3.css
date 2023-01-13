@@ -19,6 +19,10 @@
     background-color: #E5FAFC;
     border-radius: 2rem;
 }
+.light-section-3-container-subcontainer-1 {
+    background-color: #17181C;
+    color: #E5FAFC;
+}
 
 #project-btn-prev {
     position: absolute;

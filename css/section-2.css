@@ -18,6 +18,13 @@
     background-color: #E5FAFC;
     border-radius: 2rem;
 }
+.light-section-2-container-subcontainer-1{
+    background-color: #17181C ;
+    color: #E5FAFC;
+}
+.light-about-us{
+    color: #E5FAFC;
+}
 
 .section-2-container-subcontainer-1-slide {
     display: none;
@@ -140,6 +147,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.light-section-2-container-subcontainer-2-upper{
+    background-color: #17181C;
+    color: #E5FAFC;
 }
 
 .toggle-text {

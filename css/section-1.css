@@ -32,13 +32,17 @@
     flex-direction: column;
 }
 
-.section-1-container-subcontainer-2 span {
+#span-name {
     margin-bottom: 2rem;
     font-size: 6vw;
-    color: #F9AC66;
     animation-name: name;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+.light-span-name{
+    animation-name: lightname !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
 }
 
 #span-rahul {
@@ -46,8 +50,12 @@
     color: #E5FAFC;
     animation-name: rahul;
     animation-duration: 2s;
-    animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+.light-span-rahul{
+    animation-name: lightrahul !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
 }
 
 @keyframes name {
@@ -57,6 +65,19 @@
 
     50% {
         color: #E5FAFC;
+    }
+
+    100% {
+        color: #F9AC66;
+    }
+}
+@keyframes lightname {
+    0% {
+        color: #F9AC66;
+    }
+
+    50% {
+        color: #17181C;
     }
 
     100% {
@@ -75,6 +96,19 @@
 
     100% {
         color: #E5FAFC;
+    }
+}
+@keyframes lightrahul {
+    0% {
+        color: #17181C;
+    }
+
+    50% {
+        color: #F9AC66;
+    }
+
+    100% {
+        color: #17181C;
     }
 }
 

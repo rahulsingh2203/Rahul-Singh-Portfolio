@@ -36,7 +36,16 @@ li {
     font-size: 2em;
     transition: 0.5s ease;
 }
-li:hover{
+
+.light-li {
+    color: #F9AC66;
+}
+
+.light-li:hover {
+    color: #17181C;
+}
+
+li:hover {
     color: #E5FAFC;
 }
 
@@ -44,15 +53,26 @@ li:hover{
     color: #E5FAFC;
     transition: 0.5s ease;
 }
-.active:hover{
+
+.active:hover {
     color: #F9AC66;
 }
 
+.light-active {
+    color: #17181C
+}
+
+.light-active:hover {
+    color: #F9AC66;
+}
+
+
 @media only screen and (max-width: 800px) {
     .navbar {
-      justify-content: center;
+        justify-content: center;
     }
-    .nav{
+
+    .nav {
         width: 100%;
     }
-  }
+}

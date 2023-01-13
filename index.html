@@ -12,16 +12,10 @@
     <link rel="stylesheet" href="css/section-2.css">
     <link rel="stylesheet" href="css/section-3.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script src="https://kit.fontawesome.com/5f84977079.js" crossorigin="anonymous"></script>
-    <script src="Scripts/navbar-scroll.js"></script>
-    <script src="Scripts/section-2-about-us.js"></script>
-    <script src="Scripts/toggle-mode.js"></script>
-    <script src="Scripts/section-2-skills.js"></script>
-    <script src="Scripts/section-3-projects.js"></script>
     <title>Rahul Singh Mera Naam</title>
 </head>
 
-<body id="body">
+<body>
     <header>
         <div class="navbar"> <!--Navigation starts-->
             <div class="nav">
@@ -40,7 +34,7 @@
                     <img src="photos/section photo.jpeg" alt="">
                 </div>
                 <div class="section-1-container-subcontainer-2">
-                    <span>My Name is</span>
+                    <span id="span-name">My Name is</span>
                     <span id="span-rahul">Rahul Singh</span>
                 </div>
             </div>
@@ -75,7 +69,7 @@
                                 opportunities.</b></p>
                         </div>
                     </div>
-                    <button class="section-2-container-subcontainer-1-next-btn" onclick="nextSlide()"><span>NEXT</span></button>
+                    <button class="section-2-container-subcontainer-1-next-btn" onclick="nextSlide()"><span id="aboutUsNext">NEXT</span></button>
                 </div>
                 <div class="section-2-container-subcontainer-2">
                     <div class="section-2-container-subcontainer-2-upper"> <!--theme toggle-->
@@ -88,7 +82,7 @@
                         </div>
                         <div class="toggle-button">
                             <p><b>Switch light</b></p>
-                            <button onclick="toggleMode()">ON</button>
+                            <button id="togglebtn" onclick="toggleMode()">ON</button>
                         </div>
                     </div>
                     <div class="section-2-container-subcontainer-2-lower"> <!--my skills-->
@@ -150,30 +144,30 @@
             <div class="details"> <!--Contact Links-->
                 <ul class="left-ul">
                     <li class="li-footer"><a href="https://www.linkedin.com/in/rahul-singh-46a0a022a/" target="_blank"
-                            id="linkedin">
+                            id="linkedin" class="footer-links">
                             <i class="fa-brands fa-linkedin"></i>
                             <span>LinkedIn</span>
                         </a></li>
-                    <li class="li-footer"><a href="https://github.com/rahulsingh2203" target="_blank" id="github">
+                    <li class="li-footer"><a href="https://github.com/rahulsingh2203" target="_blank" id="github" class="footer-links">
                             <i class="fa-brands fa-github"></i>
                             <span>GitHub</span>
                         </a></li>
                     <li class="li-footer"><a href="https://www.instagram.com/er.rahul2203_/" target="_blank"
-                            id="instagram">
+                            id="instagram" class="footer-links">
                             <i class="fa-brands fa-instagram"></i>
                             <span>Instagram</span>
                         </a></li>
                 </ul>
                 <ul class="right-ul">
-                    <li class="li-footer"><a id="email" href="mailto: enggrahulsingh2203@gmail.com">
+                    <li class="li-footer"><a id="email" href="mailto: enggrahulsingh2203@gmail.com" class="footer-links">
                             <i class="fa-solid fa-envelope"></i>
                             <span>Email</span>
                         </a></li>
-                    <li class="li-footer"><a href="tel:+91 9131038238" id="call">
+                    <li class="li-footer"><a href="tel:+91 9131038238" id="call" class="footer-links">
                             <i class="fa-solid fa-phone"></i>
                             <span>Phone Call?</span>
                         </a></li>
-                    <li class="li-footer"><a href="Resume/RAHUL SINGH RESUME (EXP).pdf" target="_blank" id="resume">
+                    <li class="li-footer"><a href="Resume/RAHUL SINGH RESUME (EXP).pdf" target="_blank" id="resume" class="footer-links">
                             <i class="fa-solid fa-file"></i>
                             <span>Resume...</span>
                         </a></li>
@@ -189,5 +183,11 @@
         </div>
     </footer> <!--Footer Ends-->
 </body>
+<script src="https://kit.fontawesome.com/5f84977079.js" crossorigin="anonymous"></script>
+<script src="Scripts/navbar-scroll.js"></script>
+<script src="Scripts/section-2-about-us.js"></script>
+<script src="Scripts/toggle-mode.js"></script>
+<script src="Scripts/section-2-skills.js"></script>
+<script src="Scripts/section-3-projects.js"></script>
 
 </html>

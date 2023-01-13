@@ -5,9 +5,14 @@
     padding: 0;
 }
 
-#body {
+body {
     background: #17181C;
     font-family: 'Inter', sans-serif;
+}
+
+.light-body {
+    background: #E5FAFC;
+    color: #17181C;
 }
 
 header {
